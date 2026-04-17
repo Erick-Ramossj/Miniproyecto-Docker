@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>🛒 Lista de Productos</h1>
+
+  <div class="card" *ngFor="let p of datos">
+    <h2>{{ p.nombre }}</h2>
+    <p>Precio: <strong>S/. {{ p.precio }}</strong></p>
+  </div>
+</div>
